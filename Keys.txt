@@ -1,0 +1,17 @@
+#Primary keys:
+Professor (SSN)
+Department (D.Number)
+Course (CNumber)
+Section (Section#, CNumber)
+Student (ID)
+Enroll (Student, CNumber)
+#Foreign keys:
+Department (Professor) REFERENCES Section (Section#, CNumber)
+Course (D.Number) REFERENCES Department (D.Number)
+Section (CNumber) REFERENCES Course (CNumber)
+Section (P_SSN) REFERENCES Professor (SSN)
+Student (D.Number) REFERENCES Department (D.Number)
+Enroll (Student) REFERENCES Student (ID)
+Enroll (Section#) REFERENCES Section (Section#)
+Student_Minor (Student_ID) REFERENCES Student (ID)
+Student_Minor (D_Number) REFERENCES Department (D.Number)
