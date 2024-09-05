@@ -1,5 +1,5 @@
 # Database Project
 
-For my CPSC 332 class for our final project we were assigned to construct a database website 
+For my CPSC 332 class, we were assigned to construct a database website for our final project.
 
-<embed src="CPSC-332-Project.pdf" type="application/pdf" width="100%" height="600px">
+You can view the project PDF [here](CPSC-332-Project.pdf).
